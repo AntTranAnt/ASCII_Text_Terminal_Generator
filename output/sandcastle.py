@@ -1,5 +1,5 @@
 def main():
-	print("                         ____")
+	print('\033[33m' + "                         ____")
 	print("                  /^\\   / -- )")
 	print("                 / | \\ (____/")
 	print("                / | | \\ / /")
@@ -10,7 +10,7 @@ def main():
 	print("|__            ____/ /___           __|")
 	print("   |          / .------  )         |")
 	print("   |         / /        /          |")
-	print("   |        / /        /           |")
+	print("   |        / /        /           |" + '\033[0m')
 
 if __name__ == "__main__":
 	main()
